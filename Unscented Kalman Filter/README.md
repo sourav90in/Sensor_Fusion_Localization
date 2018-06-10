@@ -1,6 +1,6 @@
 # Unscented Kalman Filter-Self-Driving Car Engineer Nanodegree Program
 
-In this project an Unscented Kalman Filter is being utilized to estimate the state of a moving object of interest with noisy lidar and radar measurements. The LIDAR measurement data has been preprocessed using 3D Cloud Pre-processing techniques and provided for this project by Udacity.
+In this project an Unscented Kalman Filter is being utilized to estimate the state of a moving object of interest(bicycle) with noisy lidar and radar measurements. The LIDAR measurement data has been preprocessed using 3D Cloud Pre-processing techniques and provided for this project by Udacity.
 
 For a row containing radar data, the columns are: sensor_type, rho_measured, phi_measured, rhodot_measured, timestamp, x_groundtruth, y_groundtruth, vx_groundtruth, vy_groundtruth, yaw_groundtruth, yawrate_groundtruth.
 
@@ -59,7 +59,11 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Results
 
-Below is the result of the Unscented Kalman Filter with the green triangles highlighting the estimated position coordinates derived from the noisy radar and lidar measurement data.
+Simulated lidar and radar measurements detecting a bicycle that travels around your vehicle. Unscented Kalman filter is being used with lidar measurements and radar measurements to track the bicycle's position and velocity.
+
+Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles.
+
+Below is the result of the Unscented Kalman Filter with the green triangles highlighting the estimated position coordinates of the bicycle derived from the noisy radar and lidar measurement data.
 
 [![UKF](http://img.youtube.com/vi/7roVL33QgAA/0.jpg)](https://www.youtube.com/watch?v=7roVL33QgAA)
 
