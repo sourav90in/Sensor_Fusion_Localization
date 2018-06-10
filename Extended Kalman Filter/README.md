@@ -59,7 +59,7 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ### Results
 
-Simulated lidar and radar measurements detecting a bicycle that travels around your vehicle. Extended Kalman filter, lidar measurements and radar measurements to track the bicycle's position and velocity.
+Simulated lidar and radar measurements are provided for detecting a bicycle that travels around your vehicle. Extended Kalman filter is used along with lidar measurements and radar measurements to track the bicycle's position and velocity.
 
 Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. 
 
